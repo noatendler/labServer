@@ -1,27 +1,26 @@
 {
-  "name": "lab2017",
+  "name": "webservice",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "author": "adi and noa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/noatendler/labServer.git"
-  },
-  "homepage": "https://github.com/noatendler/labServer.git",
   "dependencies": {
     "body-parser": "^1.15.2",
     "connect-multiparty": "^2.0.0",
-    "express": "^4.14.0",
-    "mongoose": "^4.5.3",
+    "express": "^4.14.0"
   },
   "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "noa and adi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noatendler/labServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noatendler/labServer/issues"
+  },
+  "homepage": "https://github.com/noatendler/labServer#readme",
   "description": ""
 }
