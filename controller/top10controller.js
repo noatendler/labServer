@@ -26,7 +26,7 @@ exports.getData = function(req, res){
         sideEvent:t2
     };
 
-    res.json(res1s);
+    res.json(res1);
 
          });
     });
